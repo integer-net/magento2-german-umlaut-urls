@@ -10,7 +10,7 @@ The common German umlauts are automatically adapted when URLs are created. For e
 
 ## Restrictions
 
-This module does only affect the URL generation when URLs are auto-generated, i.e. when a new Product / Category / CMS Page is created, but the field "URL Key" is left empty. In that case, the URL key is being generated from the name. It doesn't effect existing Products / Categories / CMS Pages, as URL Keys are already generated for them.
+This module only affects the URL generation when URLs are auto-generated, i.e. when a new Product / Category / CMS Page is created, but the field "URL Key" is left empty. In that case, the URL key is being generated from the name. It doesn't affect existing Products / Categories / CMS Pages, as URL Keys are already generated for them.
 
 ## Installation
 
