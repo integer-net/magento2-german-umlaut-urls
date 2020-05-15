@@ -1,33 +1,13 @@
 # magento2-german-umlaut-urls
-# Integer_Net GlobalCustomLayout
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 
 
-Allows you to add global layout update files to be selected from admin, by using `0` instead of a `category_id` / `sku` / `url_path`.
-
-Compatible with Magento 2.3.4 and higher, since **cms-page/product/category specific layouts** where introduced in this version.
-
 ## Purpose
 
 The common German umlauts are automatically adapted when URLs are created. For example, an ä becomes an a, although it is common to paraphrase umlauts with an additional e, in this case ä to ae. This module solves this problem and converts umlauts correctly in URLs.
 
-## Usage:
-
-Replace identifiers in selectable layouts with a 0 (zero).
-Add layout file to themes/modules using:
- - catalog_category_view_selectable_0_<Layout Update Name>.xml for Categories
- - catalog_product_view_selectable_0_<Layout Update Name>.xml for Products
- - cms_page_view_selectable_0_<Layout Update Name>.xml for Cms pages
- 
-These files can go anywhere where you'd normally put layout files. For example:
-`app/design/frontend/[Theme_Vendor]/[Theme_Name]/Magento_Theme/layout/catalog_category_view_0_customchanges.xml`
-
-You can now select the layout update at _any_ given Category/Product/Page, under **Custom layout update** field of **Design**.
-
-More info on default behaviour of selectable layouts: 
-[Magento DevDocs: Create cms-page/product/category-specific layouts](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-manage.html#create-cms-pageproductcategory-specific-layouts)
 
 ## Installation
 
@@ -74,7 +54,7 @@ If you discover any security related issues, please email ww@integer-net.de inst
 
 ## Credits
 
-- [Willem Wigman][link-author]
+- [Andreas von Studnitz][link-author]
 - [All Contributors][link-contributors]
 
 ## License
