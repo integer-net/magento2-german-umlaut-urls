@@ -1,6 +1,6 @@
 {
     "name": "integer-net/magento2-german-umlaut-urls",
-    "description": "",
+    "description": "Automatically converts umlauts correctly in URLs ("ä" => "ae" instead of "a").",
     "authors": [
         {
             "name": "Andreas von Studnitz",
