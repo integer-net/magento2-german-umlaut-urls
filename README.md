@@ -47,6 +47,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 ## Credits
 
 - [Andreas von Studnitz][link-author]
+- [Dominik Brachmanski][link-author]
 - [All Contributors][link-contributors]
 
 ## License
