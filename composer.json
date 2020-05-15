@@ -5,6 +5,10 @@
         {
             "name": "Andreas von Studnitz",
             "email": "avs@integer-net.de"
+        },
+        {
+            "name": "Dominik Brachmanski",
+            "email": "db@integer-net.de"
         }
     ],
     "require": {
