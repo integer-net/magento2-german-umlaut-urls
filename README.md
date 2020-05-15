@@ -44,14 +44,6 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## Known issues
-
-1. Does not work with the homepage (cms_index_index). But hey, it doesn't in the default Magento implementation either.
-
-## Security
-
-If you discover any security related issues, please email ww@integer-net.de instead of using the issue tracker.
-
 ## Credits
 
 - [Andreas von Studnitz][link-author]
