@@ -1,0 +1,35 @@
+{
+    "name": "integer-net/magento2-german-umlaut-urls",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andreas von Studnitz",
+            "email": "avs@integer-net.de"
+        }
+    ],
+    "require": {
+        "magento/framework": ">=100.0.0",
+        "php": ">=7.1.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "IntegerNet\\GermanUmlautUrls\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require-dev": {
+        "magento/magento-coding-standard": "@dev"
+    }
+}
