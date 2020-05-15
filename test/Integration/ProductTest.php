@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace IntegerNet\GermanUmlautUrls\Test\Integration;
 
-use Magento\Catalog\Model\Category;
 use Magento\Catalog\Model\Product;
 use Magento\Store\Model\StoreManagerInterface;
 use Magento\TestFramework\ObjectManager;
