@@ -35,15 +35,15 @@ Zero configuration needed.
 
 1. Copy `Test/Integration/phpunit.xml.dist` from the package to `dev/tests/integration/phpunit.xml` in your Magento installation.
 
-2. In that directory, run
+2. In the Magento root directory, run
     ``` bash
-    ../../../vendor/bin/phpunit
+    bin/magento dev:tests:run integration
     ```
 
 ## Credits
 
-- [Andreas von Studnitz][link-author]
-- [Dominik Brachmanski][link-author]
+- [Andreas von Studnitz][link-author-avs]
+- [Dominik Brachmanski][link-author-db]
 - [All Contributors][link-contributors]
 
 ## License
@@ -54,3 +54,6 @@ The MIT License (MIT). Please see [License File](LICENSE.txt) for more informati
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/integer-net/magento2-german-umlaut-urls
+[link-contributors]: ../../contributors
+[link-author-avs]: https://github.com/avstudnitz
+[link-author-db]: https://github.com/DomBra27
